@@ -113,3 +113,8 @@ about{
     max-width: 600px;
     line-height: 1.7;
 }
+.books{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 25px;
+}
